@@ -6,16 +6,21 @@ aside {
   color: #000;
   width: 15vw;
   height: 100vh;
-  padding-top: 0.8em;
   background: #fff;
   position: absolute;
   top: 0;
   font-weight: 600;
   border-bottom: 1px solid grey;
+  border-radius: 12px;
 }
 
+aside > div.logo > img {
+  width: 150px;
+  margin-top: -20px;
+}D
+
 aside > div.links {
-  margin-top: 1em;
+  margin-top: 10px;
 }
 
 aside > div.links > a,
