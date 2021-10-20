@@ -34,29 +34,29 @@ const Aside = () => {
           Inventory
         </a>
         <a href="/">
-          <i className="fa fa-line-chart" aria-hidden="true"></i>
+        <i class="fa fa-wrench" aria-hidden="true"></i>
           Service Request
         </a>
         <a href="/">
-          <i className="fa fa-line-chart" aria-hidden="true"></i>
+        <i class="fas fa-phone"></i>
           Contact
         </a>
         <a href="/">
-          <i className="fa fa-line-chart" aria-hidden="true"></i>
+        <i class="fas fa-bullhorn"></i>
           Anouncements
         </a>
         <a href="/">
-          <i className="fa fa-line-chart" aria-hidden="true"></i>
+        <i class="fas fa-cog"></i>
           Settings
         </a>
       </div>
       <div className="AsideFooter">
         <a href="/">
-          <i className="fa fa-line-chart" aria-hidden="true"></i>
+        <i class="fas fa-power-off"></i>
           Logout
         </a>
         <a href="/">
-          <i className="fa fa-line-chart" aria-hidden="true"></i>
+        <i class="fas fa-comment-alt"></i>
           Feedback
         </a>
       </div>
