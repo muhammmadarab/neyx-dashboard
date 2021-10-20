@@ -1,10 +1,13 @@
 import React from "react";
 import "./Aside.css";
+import image from "../../logo.svg";
 
 const Aside = () => {
   return (
     <aside>
-      <div className="logo"></div>
+      <div className="logo">
+        <img src={image} alt="NeyX"/>
+      </div>
       <div className="links">
         <a href="/">
           <i className="fa fa-home" aria-hidden="true"></i>
