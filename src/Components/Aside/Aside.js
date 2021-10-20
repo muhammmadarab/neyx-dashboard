@@ -14,28 +14,28 @@ const Aside = () => {
           Home
         </a>
         <a href="/">
-          <i className="fa fa-book-reader" aria-hidden="true"></i>
+        <i class="fas fa-chart-line"></i>
           Analytics
         </a>
         <a href="/">
-          <i className="fa fa-award" aria-hidden="true"></i>
+          <i className="fas fa-tags" aria-hidden="true"></i>
           Orders
         </a>
         <a href="/">
-          <i className="fa fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-user-circle"></i>
           Profile
         </a>
         <a href="/">
-          <i className="fa fa-line-chart" aria-hidden="true"></i>
+        <i class="fas fa-dollar-sign"></i>
           Pricing/plans
         </a>
         <a href="/">
-          <i className="fa fa-line-chart" aria-hidden="true"></i>
+        <i class="fas fa-warehouse"></i>
           Inventory
         </a>
         <a href="/">
           <i className="fa fa-line-chart" aria-hidden="true"></i>
-          Service request
+          Service Request
         </a>
         <a href="/">
           <i className="fa fa-line-chart" aria-hidden="true"></i>
