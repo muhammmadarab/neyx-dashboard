@@ -8,10 +8,58 @@
   width: 85vw;
   z-index: -1;
   overflow-y: scroll;
+  /* background-color: #DBDBDB; */
 }
 
 .cards {
+  margin-top: 20px;
+  width: 85vw;
+  height: 16vh;
   display: flex;
-  justify-content: ;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+}
 
+.cards > div {
+  position: relative;
+  flex: 1;
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 12px;
+  border-bottom: 1px solid grey;
+  color: #676767;
+  font-size: 25px;
+}
+
+.cards > div:nth-child(4) {
+  margin-right: 0;
+}
+
+span.dots {
+  position: absolute;
+  color: #C4C4C4;
+  font-weight: 400;
+  top: 0px;
+  right: 25px;
+}
+
+div.sm {
+  margin-top: 10px;
+  color: black;
+  font-size: 18px;
+}
+
+div.number {
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+
+span.attract {
+  color: #1DCD00;
+  font-size: 16px;
 }
