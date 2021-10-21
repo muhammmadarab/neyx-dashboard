@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import LinePie from "./LinePie";
 import "./Content.css";
 
 const Content = () => {
@@ -16,6 +17,9 @@ const Content = () => {
         />
         <Card title="Ongoing Conversation" desc="Something" figure="2,341" />
         <Card title="Orders Completed" desc="Something" figure="1,598" />
+      </div>
+      <div class="content__mid">
+        <LinePie />
       </div>
     </div>
   );

@@ -1,0 +1,12 @@
+.linepie {
+    display: flex;
+    justify-content: center;
+}
+
+.linepie__line {
+    /* flex: 0.75; */
+}
+
+.linepie__pie {
+    /* flex: 0.25; */
+}
