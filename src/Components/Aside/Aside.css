@@ -1,51 +1,40 @@
-body {
-  background-color: #efefef;
-}
-
 aside {
   height: 100vh;
   border-radius: 0.8em;
   width: 15vw;
   background: #fff;
-  color: #000;
   box-shadow: 0 0 3em rgba(0, 0, 0, 0.1);
-  font-weight: 600;
 }
 
-aside > div.logo > img {
+.logo__img {
   height: 7em;
-  width: 7em;
   margin-top: -1.5em;
 }
 
-aside > div.links {
+.aside__links {
   margin-top: -1.5em;
 }
 
-aside > div.links > a,
-aside > div.AsideFooter > a {
-  font-size: 1em;
-  color: #000;
+.aside__link {
   display: block;
   padding: 0.8em 0.8em 0.8em 2em;
   margin: 0.2em 1em;
-  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+  font-weight: 600;
 }
 
-aside > div.links > a:hover,
-aside > div.AsideFooter > a:hover {
+.aside__link:hover {
   color: #fff;
   background: #ea2329;
-  outline: none;
   border-radius: 1.2em;
 }
 
-aside > div.links > a > i,
-aside > div.AsideFooter > a > i {
+.aside__link__icon {
   margin-right: 1em;
 }
 
-aside > .AsideFooter {
+.aside__footer {
   position: absolute;
   bottom: 1em;
   width: 14.5em;

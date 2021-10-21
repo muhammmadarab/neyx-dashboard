@@ -4,10 +4,10 @@ import Content from "./Components/Content/Content";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Aside />
       <Content />
-    </div>
+    </>
   );
 };
 
