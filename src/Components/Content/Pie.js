@@ -4,7 +4,9 @@ import './Pie.css';
 const Pie = () => {
     return (
         <div class="pie">
-            Pie
+            <div class="pie__top">
+                Total Orders
+            </div>
         </div>
     )
 }
