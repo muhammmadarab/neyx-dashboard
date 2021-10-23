@@ -6,6 +6,7 @@ import "./Content.css";
 import Area from "./Area";
 import Category from "./Category";
 import Profit from "./Profit";
+import Table from "./Table";
 
 const Content = () => {
   return (
@@ -31,6 +32,7 @@ const Content = () => {
         <Category />
         <Profit />
       </div>
+      <Table />
     </div>
   );
 };

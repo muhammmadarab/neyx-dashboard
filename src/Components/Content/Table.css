@@ -1,16 +1,12 @@
-.line {
-    flex: 0.825;
-    /* padding: 10px; */
-    margin-bottom: 2em;
-    margin-right: 2em;
+.table {
+    margin-bottom: 1em;
     background-color: white;
-    /* height: 7em; */
     padding: 1em;
     border-radius: 0.5em;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
 }
 
-.line > .line__top {
+.table__top {
     margin-left: -1em;
     margin-right: -1em;
     padding-left: 1em;
