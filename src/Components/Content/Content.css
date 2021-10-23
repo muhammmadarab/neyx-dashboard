@@ -79,3 +79,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+.content__low {
+  display: flex;
+  justify-content: space-between;
+}

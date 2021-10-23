@@ -3,6 +3,9 @@ import Card from "./Card";
 import Line from "./Line";
 import Pie from "./Pie";
 import "./Content.css";
+import Area from "./Area";
+import Category from "./Category";
+import Profit from "./Profit";
 
 const Content = () => {
   return (
@@ -22,6 +25,11 @@ const Content = () => {
       <div class="content__mid">
         <Line />
         <Pie />
+      </div>
+      <div class="content__low">
+        <Area />
+        <Category />
+        <Profit />
       </div>
     </div>
   );
