@@ -21,6 +21,10 @@ const data = {
     ],
 };
 
+const options = {
+    cutout: 110,
+};
+
 const Pie = () => {
     return (
         <div class="pie">
@@ -28,7 +32,7 @@ const Pie = () => {
                 Total Orders
             </div>
             <div>
-                <Doughnut data={data} />
+                <Doughnut data={data} options={options} />
             </div>
         </div>
     )
