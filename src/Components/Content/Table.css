@@ -7,7 +7,8 @@ table.table {
 }
 
 .table thead th {
-  background-color: #fff;
+  background-color: #ec3b23;
+  color: #fff;
 }
 
 .table thead th:last-child {
