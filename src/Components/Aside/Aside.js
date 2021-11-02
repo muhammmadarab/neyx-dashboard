@@ -11,11 +11,11 @@ const Aside = () => {
       </div>
       <div className="aside__links">
         <AsideLink to="/" icon="fa fa-home" label="Home" />
-        <AsideLink to="/" icon="fas fa-chart-line" label="Analytics" />
+        <AsideLink to="/analytics" icon="fas fa-chart-line" label="Analytics" />
         <AsideLink to="/" icon="fas fa-tags" label="Orders" />
         <AsideLink to="/" icon="far fa-user-circle" label="Profile" />
         <AsideLink to="/" icon="fas fa-dollar-sign" label="Pricing/plans" />
-        <AsideLink to="/" icon="fas fa-warehouse" label="Inventory" />
+        <AsideLink to="/inventory" icon="fas fa-warehouse" label="Inventory" />
         <AsideLink to="/" icon="fa fa-wrench" label="Service Request" />
         <AsideLink to="/" icon="fas fa-phone" label="Contact" />
         <AsideLink to="/" icon="fas fa-bullhorn" label="Anouncements" />

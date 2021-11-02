@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AsideLink = (props) => {
   return (
-    <a className="aside__link" href={props.to}>
+    <Link className="aside__link" to={props.to}>
       <i className={`aside__link__icon ${props.icon}`}></i>
       {props.label}
-    </a>
+    </Link>
   );
 };
 

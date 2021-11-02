@@ -1,0 +1,92 @@
+table.table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 0.8em;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+  background-color: #ec3b23;
+  color: #fff;
+}
+
+.table thead th:last-child {
+  text-align: left;
+  padding-left: 2.5em;
+}
+
+.table th,
+.table td {
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  text-align: center;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.table td .fa-circle {
+  font-size: 0.8em;
+  margin-right: 0.5em;
+}
+
+.convo-on {
+  color: rgb(255, 123, 0);
+}
+
+.convo-done {
+  color: rgb(53, 228, 53);
+}
+
+.convo-stop {
+  color: red;
+}
+
+/* ---------- */
+.analytics .table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.analytics .table td:last-child {
+  text-align: left !important;
+}
+
+.analytics .table td:last-child {
+  text-align: left !important;
+}
+
+/* ---------- */
+.inventory .table tr th:first-child,
+.inventory .table tr td:first-child {
+  text-align: left !important;
+  padding-left: 2em;
+}
+
+.inventory .table .fa-square {
+  margin-right: 0.5em;
+  opacity: 0.5;
+}
+
+.inventory .table .fa-square:not(.inventory .table th .fa-square) {
+  opacity: 0.4;
+  color: grey;
+}
+
+.inventory .table tr {
+  background-color: #fff;
+}
+
+.inventory .table tr td input {
+  width: 7em;
+  border: 1px solid #ccc;
+  border-radius: 0.2em;
+  opacity: 0.7;
+}
+
+.layer {
+  height: 25em;
+  overflow-y: scroll;
+}

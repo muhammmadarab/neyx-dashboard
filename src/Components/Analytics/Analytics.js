@@ -1,16 +1,15 @@
 import React from "react";
 import Line from "./Line";
 import Pie from "./Pie";
-import "./Content.css";
 import Area from "./Area";
 import Category from "./Category";
 import Profit from "./Profit";
 import Table from "./Table";
 import Cards from "./Cards";
 
-const Content = () => {
+const Analytics = () => {
   return (
-    <div class="content">
+    <div className="analytics">
       <Cards />
       <div class="content__mid">
         <Line />
@@ -26,4 +25,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Analytics;
